@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D47B96D85A5FA03B5EE8B05 /* Pods_StripeDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846454A05ED428AFC4794EDF /* Pods_StripeDemoApp.framework */; };
 		596AA93B24B4B4760035F87F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596AA93A24B4B4760035F87F /* AppDelegate.swift */; };
 		596AA93D24B4B4760035F87F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596AA93C24B4B4760035F87F /* SceneDelegate.swift */; };
-		596AA93F24B4B4760035F87F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596AA93E24B4B4760035F87F /* ViewController.swift */; };
 		596AA94224B4B4760035F87F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596AA94024B4B4760035F87F /* Main.storyboard */; };
 		596AA94424B4B4760035F87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596AA94324B4B4760035F87F /* Assets.xcassets */; };
 		596AA94724B4B4760035F87F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596AA94524B4B4760035F87F /* LaunchScreen.storyboard */; };
+		596AA95324B4B4DE0035F87F /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596AA95224B4B4DE0035F87F /* BookCell.swift */; };
+		596AA95524B4B4E50035F87F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596AA95424B4B4E50035F87F /* Book.swift */; };
+		596AA95724B4B4ED0035F87F /* BookListScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596AA95624B4B4ED0035F87F /* BookListScreenViewController.swift */; };
+		596AA95924B4B4F50035F87F /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596AA95824B4B4F50035F87F /* CheckoutViewController.swift */; };
+		59AD76F624B4BCCF008B6210 /* MyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD76F524B4BCCF008B6210 /* MyAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07EA9B34FE03E104A5162E60 /* Pods-StripeDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeDemoApp.release.xcconfig"; path = "Target Support Files/Pods-StripeDemoApp/Pods-StripeDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		299CC7ACF4795609F6B7A923 /* Pods-StripeDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-StripeDemoApp/Pods-StripeDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		596AA93724B4B4760035F87F /* StripeDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StripeDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		596AA93A24B4B4760035F87F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		596AA93C24B4B4760035F87F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		596AA93E24B4B4760035F87F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		596AA94124B4B4760035F87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		596AA94324B4B4760035F87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		596AA94624B4B4760035F87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		596AA94824B4B4760035F87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		596AA95224B4B4DE0035F87F /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		596AA95424B4B4E50035F87F /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		596AA95624B4B4ED0035F87F /* BookListScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListScreenViewController.swift; sourceTree = "<group>"; };
+		596AA95824B4B4F50035F87F /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		59AD76F524B4BCCF008B6210 /* MyAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAPIClient.swift; sourceTree = "<group>"; };
+		846454A05ED428AFC4794EDF /* Pods_StripeDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StripeDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D47B96D85A5FA03B5EE8B05 /* Pods_StripeDemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				596AA93924B4B4760035F87F /* StripeDemoApp */,
 				596AA93824B4B4760035F87F /* Products */,
+				8D1D714E67F94B0B73EF2E5F /* Pods */,
+				B96385CF8CBF1948ABF36E04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,68 @@
 		596AA93924B4B4760035F87F /* StripeDemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				596AA93A24B4B4760035F87F /* AppDelegate.swift */,
-				596AA93C24B4B4760035F87F /* SceneDelegate.swift */,
-				596AA93E24B4B4760035F87F /* ViewController.swift */,
+				596AA95124B4B4CF0035F87F /* View */,
+				596AA95024B4B4C60035F87F /* Models */,
+				596AA94F24B4B4C00035F87F /* Controllers */,
 				596AA94024B4B4760035F87F /* Main.storyboard */,
-				596AA94324B4B4760035F87F /* Assets.xcassets */,
-				596AA94524B4B4760035F87F /* LaunchScreen.storyboard */,
+				596AA94E24B4B4810035F87F /* Other */,
 				596AA94824B4B4760035F87F /* Info.plist */,
+				59AD76F524B4BCCF008B6210 /* MyAPIClient.swift */,
 			);
 			path = StripeDemoApp;
+			sourceTree = "<group>";
+		};
+		596AA94E24B4B4810035F87F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				596AA94324B4B4760035F87F /* Assets.xcassets */,
+				596AA93C24B4B4760035F87F /* SceneDelegate.swift */,
+				596AA93A24B4B4760035F87F /* AppDelegate.swift */,
+				596AA94524B4B4760035F87F /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		596AA94F24B4B4C00035F87F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				596AA95624B4B4ED0035F87F /* BookListScreenViewController.swift */,
+				596AA95824B4B4F50035F87F /* CheckoutViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		596AA95024B4B4C60035F87F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				596AA95424B4B4E50035F87F /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		596AA95124B4B4CF0035F87F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				596AA95224B4B4DE0035F87F /* BookCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D1D714E67F94B0B73EF2E5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				299CC7ACF4795609F6B7A923 /* Pods-StripeDemoApp.debug.xcconfig */,
+				07EA9B34FE03E104A5162E60 /* Pods-StripeDemoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B96385CF8CBF1948ABF36E04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				846454A05ED428AFC4794EDF /* Pods_StripeDemoApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 596AA94B24B4B4760035F87F /* Build configuration list for PBXNativeTarget "StripeDemoApp" */;
 			buildPhases = (
+				2DC35051AF77ADC3C7F6861F /* [CP] Check Pods Manifest.lock */,
 				596AA93324B4B4760035F87F /* Sources */,
 				596AA93424B4B4760035F87F /* Frameworks */,
 				596AA93524B4B4760035F87F /* Resources */,
+				0559B8BC4FA11DAB22DD143E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +203,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0559B8BC4FA11DAB22DD143E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StripeDemoApp/Pods-StripeDemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StripeDemoApp/Pods-StripeDemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StripeDemoApp/Pods-StripeDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DC35051AF77ADC3C7F6861F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StripeDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		596AA93324B4B4760035F87F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				596AA93F24B4B4760035F87F /* ViewController.swift in Sources */,
+				596AA95524B4B4E50035F87F /* Book.swift in Sources */,
+				596AA95724B4B4ED0035F87F /* BookListScreenViewController.swift in Sources */,
+				596AA95324B4B4DE0035F87F /* BookCell.swift in Sources */,
+				59AD76F624B4BCCF008B6210 /* MyAPIClient.swift in Sources */,
 				596AA93B24B4B4760035F87F /* AppDelegate.swift in Sources */,
+				596AA95924B4B4F50035F87F /* CheckoutViewController.swift in Sources */,
 				596AA93D24B4B4760035F87F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +398,7 @@
 		};
 		596AA94C24B4B4760035F87F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 299CC7ACF4795609F6B7A923 /* Pods-StripeDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +417,7 @@
 		};
 		596AA94D24B4B4760035F87F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07EA9B34FE03E104A5162E60 /* Pods-StripeDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
