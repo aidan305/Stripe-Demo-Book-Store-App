@@ -35,6 +35,7 @@
 		596AA95624B4B4ED0035F87F /* BookListScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListScreenViewController.swift; sourceTree = "<group>"; };
 		596AA95824B4B4F50035F87F /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		59AD76F524B4BCCF008B6210 /* MyAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAPIClient.swift; sourceTree = "<group>"; };
+		59FFCD3A25D6A873008F00F1 /* StripeDemoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StripeDemoApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		846454A05ED428AFC4794EDF /* Pods_StripeDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StripeDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,6 +79,7 @@
 				596AA94E24B4B4810035F87F /* Other */,
 				596AA94824B4B4760035F87F /* Info.plist */,
 				59AD76F524B4BCCF008B6210 /* MyAPIClient.swift */,
+				59FFCD3A25D6A873008F00F1 /* StripeDemoApp-Bridging-Header.h */,
 			);
 			path = StripeDemoApp;
 			sourceTree = "<group>";
@@ -410,6 +412,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aidanegan.StripeDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/aidanegan/Desktop/Stripe-Demo-Book-Store-App/StripeDemoApp/StripeDemoApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -429,6 +432,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aidanegan.StripeDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/aidanegan/Desktop/Stripe-Demo-Book-Store-App/StripeDemoApp/StripeDemoApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
