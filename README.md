@@ -3,11 +3,7 @@
 To start:
 
 1. clone project 
-2. do a pod init 
-3. add the following to the podfile:
-    pod 'Stripe'
-    pod 'Alamofire'
-4. run project workspace 
+
 
 
 Create a test payment: 
