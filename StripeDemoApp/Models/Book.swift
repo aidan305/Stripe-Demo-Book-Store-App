@@ -23,5 +23,5 @@ class Book {
 
 extension Book {
     static let demoBooks = [Book(image: UIImage(named: "Harry_Potter")!, title: "Harry Potter", price: 10), Book(image: UIImage(named: "Lord_of_the_rings")!
-        , title: "Lord of the Rings", price: 20), Book(image: UIImage(named: "Da_vinci_code")!, title: "Da Vinci Code", price: 30)]
+        , title: "Lord of the Rings", price: 20), Book(image: UIImage(named: "Da_vinci_code")!, title: "Da Vinci Code", price: 30), Book(image: UIImage(named: "Harry_Potter")!, title: "Harry Potter PART TWO!", price: 20)]
 }
